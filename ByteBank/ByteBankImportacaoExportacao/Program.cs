@@ -15,7 +15,10 @@ namespace ByteBankImportacaoExportacao
             // LidandoComFileStreamDiretamente();
             // UsarStreamReader();
             // CriarArquivo();
-            CriarArquivoComWriter();
+            //CriarArquivoComWriter();
+            // TestaEscrita();
+            // EscritaBinaria();
+            LeituraBinaria();
             Console.WriteLine("Aplicação finalizada...");
 
             Console.ReadLine();
