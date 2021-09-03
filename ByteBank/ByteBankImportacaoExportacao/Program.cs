@@ -18,13 +18,24 @@ namespace ByteBankImportacaoExportacao
             //CriarArquivoComWriter();
             // TestaEscrita();
             // EscritaBinaria();
-            LeituraBinaria();
+            // LeituraBinaria();
+            // UsarStreamDeEntrada();
+            // TestConsoleReadline();
+            // TestReadAllLines();
+            // TestReadAllBytes();
+            TestWriteAllText();
+
             Console.WriteLine("Aplicação finalizada...");
 
             Console.ReadLine();
         }
 
-       
+        static void TestConsoleReadline()
+        {
+            Console.WriteLine("Digite o seu nome:");
+            var nome = Console.ReadLine();
+            Console.WriteLine(nome);
+        }        
 
 
     }
